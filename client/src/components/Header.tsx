@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container">
         <a className="navbar-brand" href="/">
           <div className="d-flex align-items-center">
-            <img src={logo} alt="logo" className="logo me-4" />
+            <img src={logo} alt="logo" className="logo me-3" />
             <div>Project Mgmt</div>
           </div>
         </a>

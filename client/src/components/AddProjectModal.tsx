@@ -6,7 +6,7 @@ import { GET_CLIENTS } from "../queries/clientQueries";
 import { ClientType } from "./Clients";
 import { ADD_PROJECT } from "../mutations/projectMutations";
 
-type FormValueType = {
+export type FormValueType = {
   name: string;
   description: string;
   clientId: string;
